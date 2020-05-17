@@ -20,8 +20,6 @@ class _HomePageState extends State<HomePage> {
       drawer: MainDrawer(),
       appBar: AppBar(
         backgroundColor: Colors.black87,
-        title: Text("Bem-vindo!"),
-        centerTitle: true,
         actions: <Widget>[
           Builder(builder: (BuildContext context) {
             return FlatButton(

@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:senhordosaneis/app/models/personagens_model.dart';
@@ -34,7 +32,7 @@ class _PersonagensEditPageState extends State<PersonagensEditPage> {
     return 
       Scaffold(
           appBar: AppBar(
-            title: Text('Personagem'),
+            title: Text('Edição Personagens'),
             backgroundColor: Colors.black87,
           ),
           body: Container(
@@ -174,6 +172,7 @@ class _PersonagensEditPageState extends State<PersonagensEditPage> {
         initialDate: initialDate,
         firstDate: DateTime(1900),
         lastDate: DateTime(2113));
+
     if (choosedDate != null) {
       _bloc.setDataNascimento(choosedDate);
     }

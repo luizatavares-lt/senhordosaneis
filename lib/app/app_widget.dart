@@ -23,18 +23,17 @@ class AppWidget extends StatelessWidget {
         primaryColor: Colors.grey,
         cursorColor: Colors.grey,
         primarySwatch: Colors.orange,
+        accentColor: Colors.orange,
         accentIconTheme: Theme.of(context).accentIconTheme.copyWith(
           color: Colors.white
         ),
-        accentColor: Colors.orange,
         primaryIconTheme: Theme.of(context).primaryIconTheme.copyWith(
           color: Colors.white
         ),
         primaryTextTheme: Theme
           .of(context)
           .primaryTextTheme
-          .apply(bodyColor: Colors.white)
-        ),
+          .apply(bodyColor: Colors.white)),
       home: StreamBuilder<Object>(
           stream: FirebaseAuth.instance.onAuthStateChanged,
           builder: (context, snapshot) {
