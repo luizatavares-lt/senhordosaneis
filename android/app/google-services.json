@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "714175163030",
+    "firebase_url": "https://senhor-dos-aneis.firebaseio.com",
+    "project_id": "senhor-dos-aneis",
+    "storage_bucket": "senhor-dos-aneis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714175163030:android:b1e5e7ca650c0a8a8fb0b7",
+        "android_client_info": {
+          "package_name": "com.cdm.senhordosaneis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714175163030-igkuv021ei4nl723utddhfs1p5f3ji92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3ahzkMxWMZkbwLQH7Of1oGVIMHhqQ0Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714175163030-igkuv021ei4nl723utddhfs1p5f3ji92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
